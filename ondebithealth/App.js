@@ -5,7 +5,7 @@ import Title from './src/components/Title/'
 export default function App() {
   return (
     <View style={styles.container}>
-      <Title>asda</Title>
+      <Title/>
     </View>
   );
 }
