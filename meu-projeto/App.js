@@ -1,5 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import HelloWorld from './src/components/HelloWorld';
+import Frase from './src/components/Frase'
 
 export default function App() {
   const name = 'Gabriel'
@@ -18,6 +20,8 @@ export default function App() {
       <p>Olá {newName}</p>
       <p>Soma: {sum(1, 4)}</p>
       <img src={url}/>
+      <p>{HelloWorld('Gabriel')}</p>
+      <Frase/>
     </div>
   );
 }
