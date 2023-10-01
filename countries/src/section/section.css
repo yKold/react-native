@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+}
+
+:root{
+    --color-cor1: #ffff;
+    --color-cor2: #193C40;
+    --color-cor3: #2E5902;
+}
+
+.principal {
+    margin-top: 30px;
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+    background-color: var(--color-cor2);
+    border-radius: 20px;
+    align-items: center;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+
+    -webkit-box-shadow: 0px 15px 30px 0px rgba(2,14,15,0.7);
+    -moz-box-shadow: 0px 15px 30px 0px rgba(2,14,15,0.7);
+    box-shadow: 0px 15px 30px 0px rgba(2,14,15,0.7);
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-cor1);
+    border-radius: 20px;
+    width: 25%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+    transition: 0.5s;
+
+    -webkit-box-shadow: inset 0px 0px 22px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: inset 0px 0px 22px 0px rgba(0,0,0,0.63);
+    box-shadow: inset 0px 0px 22px 0px rgba(0,0,0,0.63);
+}
+.part1:hover {
+    scale: 1.1;
+}
+.part1 > img {
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#img2 {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.part1 > p {
+    width: 90%;
+    margin-top: 20px;
+    font-size: 14pt;
+    text-align: center;
+    height: auto;
+}
+
+.part2 {
+    display: flex;
+    background-color: var(--color-cor1);
+    border-radius: 20px;
+    width: 60%;
+    height: 70%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    -webkit-box-shadow: inset 0px 0px 22px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: inset 0px 0px 22px 0px rgba(0,0,0,0.63);
+    box-shadow: inset 0px 0px 22px 0px rgba(0,0,0,0.63);
+    
+    overflow-y: hidden;
+}
+.part2 > p {
+    width: 70%;
+    font-size: 14pt;
+}
