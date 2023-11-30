@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-body {
+.container_principal {
     background-color: whitesmoke;
     color: gray;
     height: 100vh;
@@ -15,7 +15,6 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 input {
@@ -28,4 +27,16 @@ input {
     margin: 1px;
     border-color: gray;
     padding-left: 20px;
+}
+#buscar {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 1px;
+    border-color: gray;
+}
+#buscar:hover {
+    background-color: grey;
+    border-color: rgb(37, 32, 32);
+    color: white;
 }
