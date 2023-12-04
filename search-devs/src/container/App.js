@@ -49,9 +49,9 @@ class App extends Component {
     render(){
         return(
             <div className="container_principal">
-                <div>
-                    <input id="texto" type="text" placeholder="Type the username here..." onChange={this.pegarValue}/>
-                </div>
+                
+                <input id="texto" type="text" placeholder="Type the username here..." onChange={this.pegarValue}/>
+                
                 <Usuario
                     login={this.state.user} 
                     email={this.state.login} 
